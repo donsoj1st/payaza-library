@@ -1,5 +1,5 @@
 {
-  "name": "@payaza/lib",
+  "name": "payaza_lib",
   "version": "1.0.0",
   "description": "This is a prototype of payaza Library to perform all transaction by calling methods",
   "files": [
