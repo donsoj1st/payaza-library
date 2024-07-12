@@ -18,7 +18,7 @@
   "types": "./dist/index.d.ts",
   "homepage": "https://docs.payaza.africa/developers/apis",
   "repository": {
-    "url": ""
+    "url": "https://github.com/donsoj1st/payaza-library.git"
   },
   "scripts": {
     "build": "tsup ./src"
