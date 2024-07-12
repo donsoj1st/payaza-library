@@ -16,6 +16,10 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "homepage": "https://docs.payaza.africa/developers/apis",
+  "repository": {
+    "url": ""
+  },
   "scripts": {
     "build": "tsup ./src"
   },
