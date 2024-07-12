@@ -1,0 +1,35 @@
+{
+  "name": "@payaza/lib",
+  "version": "1.0.0",
+  "description": "This is a prototype of payaza Library to perform all transaction by calling methods",
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup ./src"
+  },
+  "keywords": [
+    "payaza"
+  ],
+  "author": "Adekunle Adesoji",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "buffer": "^6.0.3"
+  }
+}
