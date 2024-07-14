@@ -18,9 +18,9 @@ Node 12 or higher.
 Install the package with:
 
 ```sh
-npm install @payaza/lib
+npm install payaza_lib
 # or
-yarn add @payaza/lib
+yarn add payaza_lib
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ Note: [There is no need to convert the key to base64]
 
 <!-- prettier-ignore -->
 ```js
-const Payaza = require('@payaza/lib')('payaza_live_apikey');
+const Payaza = require('payaza_lib')('payaza_live_apikey');
 
 Payaza.transfer.initiateTransfer({
   transaction_type: "nuban",
@@ -67,7 +67,7 @@ Payaza.transfer.initiateTransfer({
 Or using ES modules and `async`/`await`:
 
 ```js
-import { payaza } from "@payaza/lib";
+import { payaza } from "payaza_lib";
 
 const Payaza = new payaza("payaza_live_apikey");
 const response = await Payaza.transfer.initiateTransfer({
@@ -104,7 +104,7 @@ console.log(response);
 This package can be use with typescript.
 
 ```ts
-import { payaza } from "@payaza/lib";
+import { payaza } from "payaza_lib";
 
 const Payaza = new payaza("payaza_live_apikey");
 const data: cardHolderDetails = {
